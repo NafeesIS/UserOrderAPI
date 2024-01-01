@@ -50,7 +50,6 @@ const userOrdersSchema = new Schema<TOrders>({
   },
 });
 
-// user management Schema
 const userSchema = new Schema<IUser, UserModel>({
   userId: {
     type: Number,
