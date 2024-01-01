@@ -49,6 +49,7 @@ const userOrdersSchema = new Schema<TOrders>({
     required: [true, 'Quantity is required'],
   },
 });
+
 // user management Schema
 const userSchema = new Schema<IUser, UserModel>({
   userId: {
