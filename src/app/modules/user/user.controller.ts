@@ -45,6 +45,7 @@ const getAllUsers = async (req: Request, res: Response) => {
     });
   }
 };
+
 const getSingleUser = async (req: Request, res: Response) => {
   try {
     const { userId } = req.params;
